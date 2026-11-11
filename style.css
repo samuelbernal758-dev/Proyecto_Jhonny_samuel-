@@ -4,7 +4,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #f4f7f6;
+  background: #ccebe0;
   font-family: "Segoe UI", Arial, sans-serif;
 }
 .tarjeta {
@@ -18,7 +18,7 @@ body {
 h1 { margin: 0 0 8px; font-weight: 800; color: #2c3e50; }
 .subtitulo { font-size: 14px; color: #555; margin-bottom: 20px; }
 .contador { font-size: 56px; font-weight: bold; color: #3498db; margin-bottom: 20px; }
-.contador.alto { color: #e74c3c; }              /* Reto 2 */
+.contador.alto { color: #ff1c03; }              /* Reto 2 */
 
 .botones { display: flex; gap: 8px; justify-content: center; margin-bottom: 24px; }
 .btn {
