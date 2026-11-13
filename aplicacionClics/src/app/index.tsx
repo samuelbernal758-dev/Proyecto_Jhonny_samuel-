@@ -38,11 +38,6 @@ export default function App() {
           Haz clic en el botón para incrementar el contador y registrar la hora exacta.
         </Text>
 
-        {/* Reto 2: cambia de color si supera 10 */}
-        <Text style={[estilos.counterBox, contador > 10 && estilos.counterAlto]}>
-          {contador}
-        </Text>
-
         <View style={estilos.fila}>
           <TouchableOpacity style={estilos.btnClick} onPress={incrementarContador}>
             <Text style={estilos.btnText}>¡Haz Clic Aquí!</Text>
@@ -54,6 +49,9 @@ export default function App() {
             <Text style={estilos.btnText}>Reiniciar</Text>
           </TouchableOpacity>
         </View>
+        <Text style={[estilos.counterBox, contador > 10 && estilos.counterAlto]}>
+          {contador}
+        </Text>
 
         <View style={estilos.tableContainer}>
           <View style={estilos.tableHeader}>
